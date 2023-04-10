@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<h2>Welcome to text analyzer.</h2><br>
+    <h3>Enter your text below.</h3>
+<!--{{name}} lives inside {{place}}.-->
+<form action="/analyzer" method="get">
+    <textarea name="text_field" style='width: 486px; height: 131px;'></textarea><br>
+    <fieldset>
+        <div><input type="checkbox" name="removepunc">Remove Punctuation<br></div>
+        <div><input type="checkbox" name="uppercase">UPPERCASE<br></div>
+        <div><input type="checkbox" name="newline_remover">Remove Newline<br></div>
+        <div><input type="checkbox" name="extraspace_remover">Remove Extra Spaces<br></div>
+        <div><input type="checkbox" name="char_count">Count Characters<br></div>
+        </fieldset>
+
+    <button type="submit"> Analyze Text</button>
+</form>
+
+</body>
+</html>
