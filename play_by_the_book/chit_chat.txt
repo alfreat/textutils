@@ -1,3 +1,0 @@
-This file should not be tracked by git.
-Reason - This file is listed in .gitignore
-Now this file is in local repo.
